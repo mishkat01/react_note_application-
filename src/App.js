@@ -25,6 +25,8 @@ function App() {
     }
 
     setNote([newNote,...note]);
+
+    setNoteTitle('');
   }
 
   return (
